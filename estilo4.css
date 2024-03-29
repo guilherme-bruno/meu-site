@@ -1,0 +1,25 @@
+
+
+.inicio{
+    border-bottom: 0;
+}
+body{
+    background-color:#87CEEB
+    
+}
+
+
+.conteudo{
+    width: 50vw;
+    height: 40vh;
+    background-color:#87CEEB;
+    
+}
+
+.borda{
+    border:2px black solid;
+}
+.rodape{
+   background-color: #87CEEB;
+
+}

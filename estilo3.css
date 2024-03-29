@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin:0%;
+    padding:0%;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    box-sizing: border-box;
+   
+
+}
+
+body{
+    background-color: #48D1CC;
+    width: 100vw; 
+   height: 100vh;
+}
+
+.cabecalho {
+    border-bottom: 2px solid;
+    background-color:#D2691E;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px
+    height:10%;
+
+}
+
+.cabecalho-imagem {
+    height: 90px;
+
+}
+
+.cabecalho-menu{
+    display:flex;
+    gap: 100px;
+
+}
+
+.cabecalho-menu-item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:5000;
+    font-variant: small-caps;
+    font-size:20px;
+    cursor: pointer;
+    
+
+}
+
+.cabecalho-menu-item:hover{
+    color:	#FF7F50;
+    font-size:22px;
+}
+
+.conteudo{
+    border-top: 2px solid #4F4F4F;
+    /* margin-bottom: 48px; */
+    height: 80%;
+
+}
+
+.conteudo-principal{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #48D1CC;
+
+}
+
+.conteudo-principal-texto-titulo1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    }
+
+.conteudo-principal-texto-titulo2{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.conteudo-principal-texto-botao{
+    background-color:#FFDAB9;
+    width:200px;
+    height:30px;
+    border:none;
+    box-shadow:4px 6px 4px #4F4F4F;
+    border-radius:30px;
+    color:#01011a;
+    font-size:13px;
+    cursor:pointer;
+}
+
+.conteudo-principal-imagem{
+    height: 300px;
+    border-radius: 50px;
+}
+
+.conteudo-secundario{
+    display:flex;
+    flex-direction:unset;
+    text-align:center;
+    gap: 20px;
+    justify-content:space-around;
+    font-size:25px;
+    background-color:#48D1CC;
+    cursor:pointer;
+
+}
+
+.conteudo-secundario-titulo3{
+    border-top: 2.0px solid;
+    padding-top: 25px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 35px;
+    /* margin-bottom: 200px; */
+    text-align: center;
+    
+}
+    
+.conteudo-secundario-paragrafo{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 25px;
+   
+}
+
+.rodape{
+    border-top:2px solid black;
+    background-color: #D2691E;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+   
+}
+
+.rodape-texto-escrito{
+    font-family: "Oswald", sans-serif;
+    font-size: 14px; 
+    margin-right: 20px;
+    background-color: #D2691E;
+}
+
+.rodape-item-imagem{
+    width: 35px;
+
+    
+}
